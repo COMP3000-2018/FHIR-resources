@@ -1,0 +1,25 @@
+{
+   "resourceType": "Observation",
+   "text": {
+      "status": "additional",
+      "div": "worst in the neck and right arm"
+   },
+   "status": "preliminary",
+   "code": {
+      "coding": [
+         {
+            "system": "http://loinc.org",
+            "code": "LA7460-4",
+            "display": "Pain"
+         }
+      ]
+   },
+   "valueRatio": {
+      "numerator": {
+         "value": "8.0"
+      },
+      "denominator": {
+         "value": "10"
+      }
+   }
+}
