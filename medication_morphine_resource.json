@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Medication",
+  "code" : "med29123", 
+  "status" : "active", 
+  "isBrand" : false, 
+  "isOverTheCounter" : false,
+  "manufacturer" :"Juno pharmaceuticals Pty Ltd", 
+  "form" : "injection",
+  "ingredient" : [{ 
+    "itemCodeableConcept" :"325072002",
+    "itemReference" :"Morphine hydrochloride",
+    "isActive" : "active",
+    "amount" :{  "value": 100,
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"}
+  }],
+  "package" : {
+    "container" : "vial",
+    "content" : [{
+      "itemCodeableConcept" :"415818006",
+      "itemReference" :"vial",
+      "amount" : {  "value": 100,
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"}
+    }],
+    "batch" : [{ 
+      "lotNumber" : "123453123", 
+      "expirationDate" : "2019-10-31"
+    }]
+  }
+}
